@@ -135,7 +135,7 @@ footer{
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="home.html">
       STARWAY <span style="color:#00d4ff;">REALESTATE</span>
     </a>
     <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#nav">
@@ -143,8 +143,8 @@ footer{
     </button>
     <div class="collapse navbar-collapse" id="nav">
       <ul class="navbar-nav ms-auto">
-        <!-- <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li> -->
-        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -173,13 +173,13 @@ footer{
     <div class="row justify-content-center">
       <div class="col-md-6">
 
-        <form action="https://friendly-capybara-4a547c.netlify.app/home" method="POST">
+        <form action="home.html" method="POST">
 
           <input type="hidden" name="access_key" value="d67bbd29-4a67-4787-bd15-8105164598e8">
           <input type="hidden" name="subject" value="New Enquiry – Starway Realestate">
           <input type="hidden" name="from_name" value="Starway Realestate">
 
-          <!-- Redirect after submit -->
+          <!-- REDIRECT AFTER SUBMIT -->
           <input type="hidden" name="redirect" value="home.html">
 
           <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
